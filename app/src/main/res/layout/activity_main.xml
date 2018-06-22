@@ -1,18 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <TextView
+        android:id="@+id/text_fun1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_column="0"
+        android:layout_row="1"
+        android:text="簡易機能" />
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/text_fun2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:text="レイアウト" />
+
+    <TextView
+        android:id="@+id/text_fun3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="5"
+        android:text="処理" />
+
+    <TextView
+        android:id="@+id/text_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:text="@string/move" />
+
+    <TextView
+        android:id="@+id/text_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:text="@string/move" />
+
+    <TextView
+        android:id="@+id/text_Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:text="EditText" />
+
+    <Button
+        android:id="@+id/button_Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="1"
+        android:text="@string/move" />
+
+    <TextView
+        android:id="@+id/text_layout0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:text="Relative" />
+
+    <Button
+        android:id="@+id/button_Layout0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:text="@string/move" />
+
+    <TextView
+        android:id="@+id/text_layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:text="Constant" />
+
+    <Button
+        android:id="@+id/button_Layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="3"
+        android:text="@string/move" />
+
+    <TextView
+        android:id="@+id/text_layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="2"
+        android:text="Liner" />
+
+    <Button
+        android:id="@+id/button_Layout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="3"
+        android:text="@string/move" />
+
+    <TextView
+        android:id="@+id/text_layout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_row="2"
+        android:text="Grid" />
+
+    <Button
+        android:id="@+id/button_Layout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_row="3"
+        android:text="@string/move" />
+
+    <TextView
+        android:id="@+id/text_Screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:text="画面遷移" />
+
+    <Button
+        android:id="@+id/button_Screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="5"
+        android:text="@string/move" />
+
+    <TextView
+        android:id="@+id/text_Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="4"
+        android:text="画像" />
+
+    <Button
+        android:id="@+id/button_Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="5"
+        android:text="@string/move" />
+
+    <TextView
+        android:id="@+id/text_Sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="4"
+        android:text="音" />
+
+    <Button
+        android:id="@+id/button_Sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="5"
+        android:text="@string/move" />
+
+
+</GridLayout>
