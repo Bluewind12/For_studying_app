@@ -41,7 +41,7 @@
 
     <Button
         android:id="@+id/button_Text"
-        android:layout_width="wrap_content"
+        android:layout_width="75sp"
         android:layout_height="wrap_content"
         android:layout_column="1"
         android:layout_row="1"
@@ -57,7 +57,7 @@
 
     <Button
         android:id="@+id/button_Button"
-        android:layout_width="wrap_content"
+        android:layout_width="75sp"
         android:layout_height="wrap_content"
         android:layout_column="2"
         android:layout_row="1"
@@ -73,7 +73,7 @@
 
     <Button
         android:id="@+id/button_Edit"
-        android:layout_width="wrap_content"
+        android:layout_width="75sp"
         android:layout_height="wrap_content"
         android:layout_column="3"
         android:layout_row="1"
@@ -89,7 +89,7 @@
 
     <Button
         android:id="@+id/button_Layout0"
-        android:layout_width="wrap_content"
+        android:layout_width="75sp"
         android:layout_height="wrap_content"
         android:layout_column="1"
         android:layout_row="3"
@@ -105,7 +105,7 @@
 
     <Button
         android:id="@+id/button_Layout1"
-        android:layout_width="wrap_content"
+        android:layout_width="75sp"
         android:layout_height="wrap_content"
         android:layout_column="2"
         android:layout_row="3"
@@ -121,7 +121,7 @@
 
     <Button
         android:id="@+id/button_Layout2"
-        android:layout_width="wrap_content"
+        android:layout_width="75sp"
         android:layout_height="wrap_content"
         android:layout_column="3"
         android:layout_row="3"
@@ -137,7 +137,7 @@
 
     <Button
         android:id="@+id/button_Layout4"
-        android:layout_width="wrap_content"
+        android:layout_width="75sp"
         android:layout_height="wrap_content"
         android:layout_column="4"
         android:layout_row="3"
@@ -153,7 +153,7 @@
 
     <Button
         android:id="@+id/button_Screen"
-        android:layout_width="wrap_content"
+        android:layout_width="75sp"
         android:layout_height="wrap_content"
         android:layout_column="1"
         android:layout_row="5"
@@ -169,7 +169,7 @@
 
     <Button
         android:id="@+id/button_Image"
-        android:layout_width="wrap_content"
+        android:layout_width="75sp"
         android:layout_height="wrap_content"
         android:layout_column="2"
         android:layout_row="5"
@@ -185,7 +185,7 @@
 
     <Button
         android:id="@+id/button_Sound"
-        android:layout_width="wrap_content"
+        android:layout_width="75sp"
         android:layout_height="wrap_content"
         android:layout_column="3"
         android:layout_row="5"
