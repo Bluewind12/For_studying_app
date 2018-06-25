@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/relative_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="75dp"
+        android:text="左,上 (60,75)"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/relative_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="85dp"
+        android:text="右,下 (85,70)"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/relative_text3"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="画面端からの相対座標で　配置を管理するレイアウト"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
+</RelativeLayout>

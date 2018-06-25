@@ -32,7 +32,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         button_Edit.setOnClickListener {
-
+            val intent = Intent(this, Edit_Activity::class.java)
+            startActivity(intent)
         }
         button_Relative.setOnClickListener {
 
