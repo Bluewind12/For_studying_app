@@ -10,9 +10,20 @@ class layout_Switch_Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        when{
+        when {
             layout.equals("relative") -> setContentView(R.layout.relative)
+            layout.equals("constant") -> setContentView(R.layout.relative)
+            layout.equals("grid") -> setContentView(R.layout.relative)
+            layout.equals("liner") -> setContentView(R.layout.relative)
+            else -> error("error;code=1")
+        }
 
+        when {
+            layout.equals("relative") -> setTitle(R.string.Relative)
+            layout.equals("constant") -> setTitle(R.string.Constant)
+            layout.equals("grid") -> setTitle(R.string.Grid)
+            layout.equals("liner") -> setTitle(R.string.Liner)
+            else -> error("error;code=2")
         }
     }
 }

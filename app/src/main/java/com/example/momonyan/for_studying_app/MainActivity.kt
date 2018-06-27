@@ -36,16 +36,25 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         button_Relative.setOnClickListener {
-
+            val intent = Intent(this, layout_Switch_Activity::class.java)
+            intent.putExtra("layout","relative")
+            startActivity(intent)
         }
         button_Constant.setOnClickListener {
+            val intent = Intent(this, layout_Switch_Activity::class.java)
+            intent.putExtra("layout","constant")
+            startActivity(intent)
 
         }
         button_Liner.setOnClickListener {
-
+            val intent = Intent(this, layout_Switch_Activity::class.java)
+            intent.putExtra("layout","liner")
+            startActivity(intent)
         }
         button_Grid.setOnClickListener {
-
+            val intent = Intent(this, layout_Switch_Activity::class.java)
+            intent.putExtra("layout","grid")
+            startActivity(intent)
         }
         button_Screen.setOnClickListener {
 

@@ -2,5 +2,9 @@
     <string name="app_name">For_studying_app</string>
     <string name="view">表示</string>
     <string name="move">移動</string>
+    <string name="Relative">Relativeレイアウト</string>
+    <string name="Constant">Constantレイアウト</string>
+    <string name="Grid">Gridレイアウト</string>
+    <string name="Liner">Linerレイアウト</string>
 
 </resources>

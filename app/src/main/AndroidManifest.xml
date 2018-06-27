@@ -10,16 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-
-        </activity>
-        <activity android:name=".TextView_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Button_Activity">
 
+        <activity android:name=".TextView_Activity"
+            android:label="TextView">
+
+        </activity>
+
+        <activity android:name=".Button_Activity"
+            android:label="Button">
+        </activity>
+
+        <activity android:name=".Edit_Activity"
+            android:label="EditText">
+        </activity>
+
+        <activity android:name=".layout_Switch_Activity">
         </activity>
     </application>
 
