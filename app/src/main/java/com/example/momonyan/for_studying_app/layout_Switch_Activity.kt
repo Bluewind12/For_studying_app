@@ -6,10 +6,11 @@ import android.support.v7.app.AppCompatActivity
 
 //レイアウト管理を行う
 class layout_Switch_Activity : AppCompatActivity() {
-    private val layout = Intent("layout")
+    private val thisIntent = Intent()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val layout = thisIntent.extras.get("layout").toString()
         when {
             layout.equals("relative") -> setContentView(R.layout.relative)
             layout.equals("constant") -> setContentView(R.layout.relative)
