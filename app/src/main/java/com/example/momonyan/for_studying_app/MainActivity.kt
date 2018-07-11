@@ -57,13 +57,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         button_Screen.setOnClickListener {
-
+            val intent = Intent(this, Screen_Activity::class.java)
+            startActivity(intent)
         }
         button_Image.setOnClickListener {
-
+            val intent = Intent(this, Picture_Activity::class.java)
+            startActivity(intent)
         }
         button_Sound.setOnClickListener {
-
+            val intent = Intent(this, Sound_Activity::class.java)
+            startActivity(intent)
         }
 
     }

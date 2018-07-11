@@ -6,24 +6,23 @@ import android.support.v7.app.AppCompatActivity
 
 //レイアウト管理を行う
 class layout_Switch_Activity : AppCompatActivity() {
-    private val thisIntent = Intent()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val layout = thisIntent.extras.get("layout").toString()
-        when {
-            layout.equals("relative") -> setContentView(R.layout.relative)
-            layout.equals("constant") -> setContentView(R.layout.relative)
-            layout.equals("grid") -> setContentView(R.layout.relative)
-            layout.equals("liner") -> setContentView(R.layout.relative)
+        var layout = intent.getStringExtra("layout")
+        when (layout) {
+            "relative" -> setContentView(R.layout.relative)
+            "constant" -> setContentView(R.layout.constant)
+            "grid" -> setContentView(R.layout.grid)
+            "liner" -> setContentView(R.layout.liner)
             else -> error("error;code=1")
         }
 
-        when {
-            layout.equals("relative") -> setTitle(R.string.Relative)
-            layout.equals("constant") -> setTitle(R.string.Constant)
-            layout.equals("grid") -> setTitle(R.string.Grid)
-            layout.equals("liner") -> setTitle(R.string.Liner)
+        when(layout) {
+            "relative" -> setTitle(R.string.Relative)
+            "constant"-> setTitle(R.string.Constant)
+            "grid" -> setTitle(R.string.Grid)
+            "liner" -> setTitle(R.string.Liner)
             else -> error("error;code=2")
         }
     }

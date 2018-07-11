@@ -28,7 +28,6 @@ class Button_Activity : AppCompatActivity() {
         buttonDOWN = findViewById(R.id.buttonArea_Down)
         textView = findViewById(R.id.buttonArea_Text)
 
-        buttonScreenChange =findViewById(R.id.buttonScreen)
         //Buttonが押されたときの動作
         buttonUP.setOnClickListener {
             i = i + 1

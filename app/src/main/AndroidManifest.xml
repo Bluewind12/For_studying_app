@@ -16,21 +16,38 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".TextView_Activity"
+        <activity
+            android:name=".TextView_Activity"
             android:label="TextView">
-
         </activity>
 
-        <activity android:name=".Button_Activity"
+        <activity
+            android:name=".Button_Activity"
             android:label="Button">
         </activity>
 
-        <activity android:name=".Edit_Activity"
+        <activity
+            android:name=".Edit_Activity"
             android:label="EditText">
         </activity>
 
-        <activity android:name=".layout_Switch_Activity">
+        <activity android:name=".layout_Switch_Activity"
+            android:label="Layout">
         </activity>
+        <activity android:name=".Screen_Activity"
+            android:label="画面遷移１">
+
+        </activity>
+        <activity android:name=".Screen2_Activity"
+            android:label="画面遷移２">
+        </activity>
+        <activity android:name=".Sound_Activity"
+            android:label="BGM,SE">
+        </activity>
+        <activity android:name=".Picture_Activity"
+            android:label="画像">
+        </activity>
+
     </application>
 
 </manifest>
